@@ -8,6 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(232, 223, 223);
   max-width: 90vw;
   height: 100vh;
   margin: 0 auto;
@@ -20,6 +21,7 @@ body {
   width: 500px;
   border: 1px solid #000;
   box-shadow: 0 20px 30px rgb(0 0 0 / 0.3);
+  background-color: #fff;
 }
 
 .label {
@@ -37,7 +39,6 @@ body {
   margin-bottom: 40px;
   margin-left: 20px;
   margin-right: 20px;
-  gap: 16px;
 }
 
 .title {
@@ -64,4 +65,8 @@ body {
 .ul__drink {
   border-bottom: 1px solid rgb(197, 230, 235);
   margin-left: 20px;
+}
+
+.hidden {
+  display: none;
 }
