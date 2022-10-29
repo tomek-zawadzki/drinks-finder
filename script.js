@@ -15,17 +15,6 @@ const finder = function () {
       el.style.display = "none";
     }
   });
-  //   for (let i = 0; i < drinks.length; i++) {
-  //     const drink = drinks[i].textContent;
-  //     // console.log(drink);
-  //     console.log(input.value);
-  //     if (input.value.toLowerCase() == drink.toLowerCase()) {
-  //       console.log("✅✅✅✅✅ ok");
-  //     } else {
-  //       console.log("🔴🔴🔴🔴🔴 nie ok");
-  //       drink;
-  //     }
-  //   }
 };
 
 input.addEventListener("keyup", finder);
